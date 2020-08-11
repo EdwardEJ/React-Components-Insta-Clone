@@ -13,8 +13,8 @@ const Posts = (props) => {
       {
         posts.map(post => {
           return <Post
-            post={post}
             key={post.id}
+            post={post}
             likePost={likePost}
           />
         })
